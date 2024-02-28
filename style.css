@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+   
+}
+
+body{
+    background: linear-gradient(to bottom, #D2B48C, #8B4513); 
+    font-family: 'Lobster';
+    }
+
+.profile{
+    text-align: center;
+    padding-top: 20px;
+}
+.foto-principal{
+    width: 120px;
+    border-radius: 69px;
+    border: 2px solid rgb(210,180,140);
+    box-shadow: 0 0 10px rgb(207 173 126);
+    
+}
+h1{
+    font-family: 'Lobster';
+    margin-bottom: 3px;
+    
+}
+
+h2{
+    font-family: 'Lobster';
+    font-style: oblique;
+
+}
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    margin: 20px 20px;
+}
+.links-list li a {
+    text-decoration: none;
+    background-color: rgb(245, 243, 240);
+    display:block;
+    color:rgb(20, 20, 20);
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
